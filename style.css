@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.heading{
+    text-align: center;
+    padding: 12px 14px;
+}
+
+p{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bg-color{
+    border: 2px solid black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-color button{
+    position: relative;
+    padding: 10px 24px;
+    background: transparent;
+    border: 2px solid #3eff37;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+button:hover{
+background-color: #3eff37;
+}
+
